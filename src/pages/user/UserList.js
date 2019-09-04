@@ -1,6 +1,6 @@
 import React from 'react'
 import Column from 'antd/lib/table/Column';
-
+import { Table, Divider, Tag } from 'antd';
 
 const data = [{
     key: '1',
