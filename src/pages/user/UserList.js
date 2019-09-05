@@ -46,6 +46,22 @@ class UserList extends React.Component{
                         title="标签"
                         dataIndex="tags"
                         key="name"
+                        render={tags =>(
+                            <span>
+                                {tags.map(tag => <Tag color="blue" key={tag}>{tag}</Tag>)}
+                            </span>
+                        )}
+                    />
+                    <Column
+                        title="操作"
+                        key="action"
+                        render={(text,record) => (
+                            <span>
+                                <a href="javascript:;">编辑</a>
+                                <Divider type="vertical"/>
+                                <a href="javascript:;">删除</a>
+                            </span>
+                        )}
                     />
                 </Table>
             </div>
