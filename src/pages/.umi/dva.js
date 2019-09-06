@@ -21,6 +21,7 @@ export function _onCreate() {
   });
   
   app.model({ namespace: 'ListData', ...(require('D:/Program Files/VScode/umiDemo/src/models/ListData.js').default) });
+app.model({ namespace: 'UserListData', ...(require('D:/Program Files/VScode/umiDemo/src/models/UserListData.js').default) });
   return app;
 }
 

@@ -1,5 +1,6 @@
 //import fetch from 'dva/fetch';
 
+
 function checkStatus(reponse){
     if(reponse.status >= 200 && reponse.status < 300) {
         return reponse;
@@ -14,5 +15,5 @@ function checkStatus(reponse){
 export default async function request(url, options){
     const reponse = await fetch(url, options);
     checkStatus(reponse);
-    return await Response.json();
+    return await reponse.json();
 }

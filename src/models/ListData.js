@@ -1,4 +1,4 @@
-import request from '../util/requset';
+import request from '../util/request';
 
 export default{
     namespace:'list',
