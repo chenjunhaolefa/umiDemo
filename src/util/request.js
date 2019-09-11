@@ -15,5 +15,6 @@ function checkStatus(reponse){
 export default async function request(url, options){
     const reponse = await fetch(url, options);
     checkStatus(reponse);
+    console.log(reponse);
     return await reponse.json();
 }
