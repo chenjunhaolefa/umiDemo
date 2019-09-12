@@ -32,13 +32,13 @@ class BasicLayout extends React.Component{
                                 <Menu.Item key="1">
                                     <span>
                                         <Icon type="pie-chart" />
-                                        <span><Link to="/user/UserAdd" style={{color:'white'}}>新增用户</Link></span>
+                                        <span><Link to="/qa/Achievements" style={{color:'white'}}>概览</Link></span>
                                     </span>
                                 </Menu.Item>
                                 <Menu.Item key="2">
                                     <span>
                                         <Icon type="pie-chart" />
-                                        <span><Link to="/user/UserList" style={{color:'white'}}>用户列表</Link></span>
+                                        <span><Link to="/qa/UserList" style={{color:'white'}}>用户列表</Link></span>
                                     </span>
                                 </Menu.Item>
                             </SubMenu>

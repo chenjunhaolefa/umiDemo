@@ -28,14 +28,14 @@ const routes = [
         component: require('../MyTabs.js').default,
       },
       {
-        path: '/user/UserAdd',
+        path: '/qa/Achievements',
         exact: true,
-        component: require('../user/UserAdd.js').default,
+        component: require('../qa/Achievements.js').default,
       },
       {
-        path: '/user/UserList',
+        path: '/qa/UserList',
         exact: true,
-        component: require('../user/UserList.js').default,
+        component: require('../qa/UserList.js').default,
       },
       {
         component: () =>

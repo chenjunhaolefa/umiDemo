@@ -9,7 +9,7 @@ export default {
     effects: {
         *initData(params, sagaEffects) {
             const {call, put} = sagaEffects;
-            const url = "/ds/user/list";
+            const url = "/ds/qa/list";
             let data = yield call(request, url);
             yield put({
                 type : "queryList",

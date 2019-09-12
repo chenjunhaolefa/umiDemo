@@ -5,7 +5,7 @@ export default {
             maxNum: 5
         });
     },
-    'get /ds/user/list': function (req, res) {
+    'get /ds/qa/list': function (req, res) {
         res.json([{
             key: '1',
             name: '张三1',
